@@ -164,7 +164,7 @@ def verify_public_proof(public_log, final_board):
     #Timestamp check - ensures no forgery
     for i in range(1, len(public_log)):
         if float(public_log[i]["timestamp"]) < float(public_log[i-1]["timestamp"]):
-            print("❌ Timestamp order invalid")
+            print("Timestamp order invalid")
             return False
 
     #Compute actual result
@@ -179,11 +179,11 @@ def verify_public_proof(public_log, final_board):
         return #True
 
     elif real_winner == "O":
-        print("❌ Verification failed: Alice lost (O wins)")
+        print("Verification failed: Alice lost (O wins)")
         return #False
 
     else:
-        print("⚠ Draw: Alice did not win")
+        print("Draw: Alice did not win")
         return #False
 
 """**Main Function**
