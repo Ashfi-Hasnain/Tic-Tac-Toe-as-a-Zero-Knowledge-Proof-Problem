@@ -4,11 +4,10 @@ CISC878 Cryptography final project prepared for Dr. F. Alaca.
 
 Please find attached the following resources:
 
-(I) Source Code - .ipynb file
-
-(II) Research Paper - .pdf file
-
-(III) Presentation Slides - .pptx file
+(I) Source Code - .py file
+(II) Annotated Source Code - .ipynb file
+(III) Research Paper - .pdf file
+(IV) Presentation Slides - .pptx file
 
 
 
